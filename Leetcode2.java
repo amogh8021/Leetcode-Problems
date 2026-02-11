@@ -1,6 +1,14 @@
 public class Leetcode2 {
     public static void main(String[] args) {
 
+        int [] input = { -4, -1 , 0 ,3, 10};
+
+        int [] output = sortedSquares(input);
+
+        for (int i = 0; i < output.length; i++) {
+            System.out.println(output[i]);
+
+        }
     }
 
     public static int[] sortedSquares(int[] nums) {
